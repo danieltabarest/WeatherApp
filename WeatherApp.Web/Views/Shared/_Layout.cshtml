@@ -31,19 +31,17 @@
                     </a>
                     @if (currenUrl == "/Survey/SurveyList") { activateSurveyClass = "active"; }
                     <a class="item  @activateSurveyClass" href="@Url.Action( "SurveyList", "Survey")">Survey</a>
-                    <a class="item" href="@Url.Action( "About", "About")">
-                        About
-                    </a>
-                    <div class="ui large images"style="padding-left:120px;">
+                    
+                    @*<div class="ui large images"style="padding-left:120px;">
                             <img src="~/Content/logo.png" />
-                    </div>
+                    </div>*@
                 </div>
             </div>
         </div>
 
         @RenderBody()
         <footer>
-            <p style="text-align:center;">&copy; 2017 - @DateTime.Now.Year - National Park Weather Service Application</p>
+            <p style="text-align:center;">&copy; 2017 - @DateTime.Now.Year - Weather Application</p>
             <div>
                 @RenderSection("AfterCopyright", false)
             </div>

@@ -106,8 +106,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\About\gsmnp.jpg" />
-    <Content Include="Content\About\IMG_2407.png" />
     <Content Include="Content\Assets\cloudy.png" />
     <Content Include="Content\Assets\cvnp.jpg" />
     <Content Include="Content\Assets\enp.jpg" />
@@ -266,7 +264,6 @@
     <Content Include="Content\components\visibility.min.js" />
     <Content Include="Content\components\visit.js" />
     <Content Include="Content\components\visit.min.js" />
-    <Content Include="Content\logo.png" />
     <Content Include="Content\semantic.css" />
     <Content Include="Content\semantic.js" />
     <Content Include="Content\semantic.min.css" />
