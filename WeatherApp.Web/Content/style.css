@@ -1,0 +1,68 @@
+﻿.row img{
+    width:95%;
+    height: 95%;
+    margin-top:5px;
+    margin-right:3px;
+    margin-bottom:2px;
+    border-radius:3px;
+}
+
+.header-site{
+      vertical-align:bottom;
+      background-color:black;
+      width:100%;
+      padding:0px;
+
+    }
+.header-site img {
+    width:90%;
+    height:150px;
+    /*margin-left:auto;
+    margin-right:auto;*/
+    margin-top:5px;
+    margin-bottom:0px;
+}
+.header-site h2{
+    margin-top:0px;
+    padding-top:0px;
+    color:#663300;
+}
+ .jumbotron{
+     width:90%;
+     margin-top:0px;
+     margin-left: 80px;
+     margin-right:5px;
+     background-color:azure;
+     /*color:#ff6a00;*/
+     /*color:azure;*/
+     color:#3366FF;
+ }
+
+ .jumbotron ul li {
+     list-style-type:none;
+     margin-left:0px;
+ }
+ .park-detail-img{
+    width: 250px;
+    height: 200px;
+ }
+ .container {
+      background-color:black;
+      background-image:url("~/Content/Assets/enp.jpg");
+      background-size:cover;
+      width:100%;
+ }
+ q {
+    quotes: "\00ab" "\00bb" "\2039" "\203A";
+}
+<<<<<<< HEAD
+.td-img {
+     width:300px;
+     height:240px;
+ }
+=======
+ table td img {
+     width:150px;
+     height:110px;
+ }
+>>>>>>> 7d9d3bff60332736aba9445da1b225c5091d3842
